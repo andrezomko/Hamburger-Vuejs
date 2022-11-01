@@ -1,18 +1,32 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<myBanner/>
+  <div  class="main-container">
+   <h1>Monte o seu hamburguer!</h1>
+   <burguerForm/>
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+<style>
+.main-container{
+background-color: rgb(218, 215, 215);
+ margin: 0; 
+ padding-top: 40px;
+ padding-bottom: 40px;
+}
 
-export default {
+
+</style>
+
+
+<script>
+import myBanner from '@/components/myBanner.vue';
+import burguerForm from '../components/burguerForm.vue'
+
+export default{
   name: 'HomeView',
-  components: {
-    HelloWorld
+  components:{
+    myBanner,
+    burguerForm
   }
 }
 </script>
