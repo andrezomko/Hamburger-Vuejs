@@ -115,6 +115,7 @@ export default {
 
 
 <style scoped>
+
   #burger-table {
     max-width: 1200px;
     margin: 0 auto;
@@ -130,11 +131,14 @@ export default {
     font-weight: bold;
     padding: 12px;
     border-bottom: 3px solid #333;
+    font-size: 1.6rem;
+
   }
   .burger-table-row {
     width: 100%;
     padding: 12px;
     border-bottom: 1px solid rgb(102, 101, 101);
+    font-size: 1.6rem;
   }
   #burger-table-heading div,
   .burger-table-row div {
@@ -155,7 +159,7 @@ export default {
     font-weight: bold;
     border: 2px solid #222;
     padding: 10px;
-    font-size: 16px;
+    font-size: 1.6rem;
     margin: 0 auto;
     cursor: pointer;
     transition: .5s;

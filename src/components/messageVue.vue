@@ -38,6 +38,7 @@ export default {
     padding: 10px;
     max-width: 400px;
     margin: 30px auto;
+    font-size: 1.8rem;
 }
     
 </style>

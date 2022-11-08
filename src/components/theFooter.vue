@@ -13,11 +13,7 @@ export default {
 </script>
 
 <style scoped>
-@media (max-width: 320px){
-    #footer{
-        width:340px;
-    }
-}
+
 footer{
     height: 200px;
     background-color: #222;
@@ -27,6 +23,17 @@ footer{
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+footer p{
+    font-size: 3rem;
+}
+@media (max-width: 327px){
+    #footer{
+        width:340px;
+    }
+    footer p{
+        font-size: 1.4rem;
+    }
 }
     
 </style>

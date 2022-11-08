@@ -1,14 +1,19 @@
 <template lang="">
     <div id="main-banner">
-        <h1>Make Your Burguer</h1>
+        <h1 id="dropDown" @click="dropDownMethod" >Make Your Burguer</h1>
     </div>
 </template>
 <script>
 export default {
-    name:'myBanner',
-
-    
+    name:'myBanner', 
+    methods:{
+        dropDownMethod(){
+            window.scrollTo(0,600)
+        }
+    }
 }
+
+
 </script>
 <style scoped>
 
@@ -24,12 +29,7 @@ export default {
     min-width: 34rem;
     max-width: 100vw;;
 
-
 }
-
-/* agora preciso:
-- responsiv navbar
-- responsiv burger form */
 
 h1{
     color: white;
@@ -38,6 +38,13 @@ h1{
     background-color: #222;
     padding: 2rem;
     margin-left: 0;
+    transition: .6s;  
+   
+}
+
+h1:hover{
+    color: #fcba03;
+    cursor: pointer;
 }
 
 @media (max-width: 664px){
@@ -45,54 +52,7 @@ h1{
     h1{
         min-width: 30rem;
         font-size: clamp(2rem, 3rem, 5rem);
-        justify-self: flex-start;
-        
+        justify-self: flex-start;   
     }
 }
-
-
-
-
-/* Responsividade */
-
-/* mobile S */
-/* @media (max-width:340px){
-    #main-banner{
-        width: 340px;
-        background-size: cover;
-        background-position: center;
-    }  
-    #main-banner h1{
-        font-size: 20px;
-    }
-} */
-
-/* mobile M */
- /* @media (min-width: 341px)  {
-
-    #main-banner{
-        background-size: cover;
-        background-position: center;
-    }
-    #main-banner h1{
-        font-size: 1.6rem;
-    }
-
- } */
-
-/* mobile G  */
-
-/* @media (min-width: 425px) and (max-width: 600px){
-
-    #main-banner{
-        background-size: cover;
-        background-position: center;
-    }
-    #main-banner h1{
-        font-size: 36px;
-    }
-} */
-
-
- 
 </style>

@@ -105,26 +105,19 @@
         "Bacon",
         "Salame"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 1
     },
     {
-      "nome": null,
-      "carne": null,
-      "pao": null,
-      "queijo": null,
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 2
-    },
-    {
-      "nome": null,
-      "carne": null,
-      "pao": null,
-      "queijo": null,
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 3
+      "nome": "teste",
+      "carne": "Picanha",
+      "pao": "Integral",
+      "queijo": "Gorgonzola",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Em produção",
+      "id": 4
     }
   ]
 }
