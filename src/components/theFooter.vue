@@ -13,6 +13,11 @@ export default {
 </script>
 
 <style scoped>
+@media (max-width: 320px){
+    #footer{
+        width:340px;
+    }
+}
 footer{
     height: 200px;
     background-color: #222;

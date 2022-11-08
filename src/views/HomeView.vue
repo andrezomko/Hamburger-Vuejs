@@ -7,11 +7,30 @@
 </template>
 
 <style>
+:root{
+  font-size: 62.5%;
+}
+
+
+
 .main-container{
-background-color: rgb(218, 215, 215);
- margin: 0; 
- padding-top: 40px;
- padding-bottom: 40px;
+  background-color: rgb(218, 215, 215);
+  margin:0;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 340px) {
+
+  .main-container{
+    min-width: 340px;
+  }
+  
+  h1{
+
+    margin: 10px auto;
+    font-size:2rem;
+  }
 }
 
 

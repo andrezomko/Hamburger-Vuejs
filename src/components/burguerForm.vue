@@ -4,7 +4,7 @@
         <!-- COMPONENTE MSG -->
         <messageVue  ref="messageVue" :msg="msg"  :numPedido="numPedido" v-show='true'/>
     </div>
-    <form id="burguer-form" @submit.prevent="createBurguer(),$refs.messageVue.someMsg()">
+    <form id="burger-form" @submit.prevent="createBurguer(),$refs.messageVue.someMsg()">
         <div class="input-container">
             <label class="nomeCliente"  for="nome">Nome do cliente:</label>
             <input type="text" id="nome" name="nome" v-model="nome" placeholder="Digite o seu nome">
@@ -129,9 +129,7 @@ export default {
 
 <style scoped>
 
-
-
-#burguer-form{
+#burger-form{
     max-width: 400px;
     height: fit-content;
     margin: 0 auto;
@@ -139,6 +137,7 @@ export default {
     background-color: rgb(240, 239, 239);
     border: 2px solid #221;
     border-radius: 20px;
+    font-size: 1.8rem;
 }
 
 .input-container{
@@ -193,17 +192,26 @@ width: 300px;
     color:#fcba03;
     font-weight: bold;
     border:2px solid #222;
-    padding: 10px;
-    font-size: 16px;
-    margin-left: 10px;
-    margin-bottom: 20px;
+    padding: 1rem;
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
     cursor: pointer;
     transition: .5s;
 }
 .submit-btn:hover{
     background-color: transparent;
     color:#222;
-
 }
+
+@media (max-width: 352px){
+    .submit-btn{
+        max-width :25rem;;
+    }
+}
+
+/* ponto de quebra é width300px  */
+
+
     
 </style>

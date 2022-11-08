@@ -17,6 +17,7 @@ export default {
 </script>
 
 <style scoped>
+
  nav{
     background-color: #222;
     border-bottom: 4px solid #111;
@@ -28,6 +29,7 @@ export default {
 
  nav a{
     color: #fcba03;
+    font-size: 1.8rem;
     text-decoration: none;
     margin: 12px;
     transition: .5s;
@@ -45,6 +47,16 @@ nav a:hover{
     width: 40px;
     height: 40px;
  }
+
+ @media (max-width: 340px) {
+    nav{
+        width: 340px;
+    }
+    nav a{
+        font-size: 1.4rem;
+    }
+    
+}
 
 
 </style>
