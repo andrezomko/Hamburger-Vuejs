@@ -1,6 +1,6 @@
 <template lang="">
     <div id="main-banner">
-        <h1 id="dropDown" @click="dropDownMethod" >Make Your Burguer</h1>
+        <h1 id="dropDown" @click="dropDownMethod" >Make Your Burger</h1>
     </div>
 </template>
 <script>
@@ -12,14 +12,12 @@ export default {
         }
     }
 }
-
-
 </script>
 <style scoped>
 
 
 #main-banner{
-    background-image: url('../../public/img/burger.jpeg');
+    background-image: url('../../public/img/junioReis.jpg');
     background-position: center;
     background-size: cover;
     height: 50rem;
@@ -32,7 +30,7 @@ export default {
 }
 
 h1{
-    color: white;
+    color: rgb(210, 205, 205);
     text-align: left;
     font-size: 6rem;
     background-color: #222;

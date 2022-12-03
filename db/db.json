@@ -47,7 +47,11 @@
       },
       {
         "id": 3,
-        "tipo": "Salame"
+        "tipo": "Picles"
+      },
+      {
+        "id": 4,
+        "tipo": "Alface"
       },
       {
         "id": 4,
@@ -56,10 +60,6 @@
       {
         "id": 4,
         "tipo": "Cebola roxa"
-      },
-      {
-        "id": 4,
-        "tipo": "Pepino"
       }
     ],
     "queijos": [
@@ -97,27 +97,15 @@
   ],
   "burgers": [
     {
-      "nome": "Joao",
-      "carne": "Maminha",
-      "pao": "Italiano Branco",
-      "queijo": "Gorgonzola",
-      "opcionais": [
-        "Bacon",
-        "Salame"
-      ],
-      "status": "Em produção",
-      "id": 1
-    },
-    {
-      "nome": "teste",
+      "nome": "André",
       "carne": "Picanha",
-      "pao": "Integral",
+      "pao": "3 Queijos",
       "queijo": "Gorgonzola",
       "opcionais": [
         "Bacon"
       ],
-      "status": "Em produção",
-      "id": 4
+      "status": "Finalizado",
+      "id": 1
     }
   ]
 }

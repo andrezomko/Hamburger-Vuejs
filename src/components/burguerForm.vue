@@ -6,7 +6,7 @@
     </div>
     <form id="burger-form" @submit.prevent="createBurguer(),$refs.messageVue.someMsg()">
         <div class="input-container">
-            <label class="nomeCliente"  for="nome">Nome do cliente:</label>
+            <label class="nomeCliente"  for="nome">Seu nome:</label>
             <input type="text" id="nome" name="nome" v-model="nome" placeholder="Digite o seu nome">
         </div>
         <div class="input-container">
